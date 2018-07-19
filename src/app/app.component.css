@@ -1,0 +1,75 @@
+body{
+    padding:0;
+    margin:0;
+}
+.heading{
+    position: relative;
+    text-align: center;
+    margin: 0px;
+    font-size: 3em;
+    color: white;
+    
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows:10vh 80vh;
+
+    grid-template-areas:
+    "nav"
+    "jumbo";
+    
+}
+.jumbo{
+    /* border-style: solid;
+    border-color:black; */
+    overflow: hidden;
+    text-align: center;
+    /* margin:auto; */
+    
+    grid-area:jumbo;
+}
+.jumbo div div{
+    position: absolute;
+    top:40vh;
+    left:2vw;
+    width: 30vw;
+    height: 30vh;
+    min-width: 350px;
+    min-height: 275px;
+    z-index: 1;
+    background: orange;
+    padding: 1.2rem;
+    text-align: center;
+}
+.jumbo div div h1{
+    margin: auto;
+    font-size: 1.4em;
+    color: black;
+}
+.jumbo div{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.jumbo div img{
+    filter: blur(4px);
+}
+.nav{
+    background-color:black;
+    border-bottom-style: solid;
+    border-bottom-color: orange;
+    grid-area:nav;
+    padding:1.2rem;
+}
+.nav li{
+    font-size: .4em;
+    margin-right: 1.2rem;
+    color: white;
+}
+.nav li a:link{
+    text-decoration: none;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+}

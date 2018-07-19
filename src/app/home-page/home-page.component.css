@@ -1,0 +1,91 @@
+.carousel-pics{
+    height: 30vh;
+    display: block;
+    margin: auto;
+}
+.car-carousel{
+    background:rgba(83, 77, 77, 0.281);
+}
+.auto-cls-wrap{
+    border-top-style: solid;
+    border-bottom-style:solid;
+    border-top-color: rgb(233, 79, 8);
+    border-bottom-color:rgb(233, 79, 8); 
+    background-color: rgb(30, 30, 30);
+    display: grid;
+    height: 50vh;
+    grid-gap: 1rem;
+    padding: 4rem;
+    grid-template-columns: .7fr .7fr .7fr .7fr .7fr;
+    grid-template-rows: 1fr;
+
+    grid-template-areas:
+    "sedan coupe suv mini-van truck";
+
+}
+.text{
+    height: 15vh;
+    background-color:black;
+    border-top-style: solid;
+    border-top-color: rgb(233, 79, 8);
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+    font-size: 3em;
+    color:white;
+}
+.sedan{
+    margin-top:.5rem;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    grid-area:sedan;
+}
+.coupe{
+    margin-top:.5rem;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    grid-area:coupe;
+}
+.suv{
+    margin-top:.5rem;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    grid-area:suv;
+}
+.mini-van{
+    margin-top:.5rem;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    grid-area:mini-van;
+}
+.truck{
+    margin-top:.5rem;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    grid-area:truck;
+}
+.rep-inf-text{
+    height: 15vh;
+    background-color:black;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(233, 79, 8);
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+    font-size: 3em;
+    color:white;
+}
+.rep-inf{
+    height: 90vh;
+    overflow: hidden;
+}
+.rep-inf img{
+    position: relative;
+    bottom:13rem;
+    filter: blur(4px);
+}
