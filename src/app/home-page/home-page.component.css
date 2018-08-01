@@ -83,9 +83,25 @@
 .rep-inf{
     height: 90vh;
     overflow: hidden;
+    border-bottom-style: solid;
+    border-bottom-color:  rgb(233, 79, 8);;
 }
 .rep-inf img{
     position: relative;
     bottom:13rem;
     filter: blur(4px);
+}
+.rep-inf-box{
+    position: absolute;
+    top:185vh;
+    left:25%;
+    opacity: .85;
+    width: 50vw;
+    height: 60vh;
+    min-width: 350px;
+    min-height: 275px;
+    z-index: 1;
+    background: orange;
+    padding: 1.2rem;
+    text-align: center;
 }

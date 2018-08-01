@@ -28,6 +28,7 @@ body{
     grid-area:jumbo;
 }
 .jumbo div div{
+    opacity: .85;
     position: absolute;
     top:40vh;
     left:2vw;
